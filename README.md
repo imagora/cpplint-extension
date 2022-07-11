@@ -16,7 +16,7 @@ This extension utilizes the cpplint checker to provide C and C++ code style chec
 
 #### Install from source
 
-https://github.com/cpplint/cpplint
+https://github.com/imagora/agora-cpplint
 
 #### Mac & Linux
 

@@ -1,12 +1,12 @@
 {
-    "name": "cpplint",
-    "displayName": "cpplint",
-    "description": "code style check tool extension for cpplint",
-    "version": "0.1.3",
-    "publisher": "mine",
+    "name": "agora-cpplint",
+    "displayName": "agora-cpplint",
+    "description": "code style check tool extension for agora-cpplint",
+    "version": "0.1.5",
+    "publisher": "winking324",
     "repository": {
         "type": "Git",
-        "url": "https://github.com/secularbird/cpplint-extension"
+        "url": "https://github.com/imagora/cpplint-extension"
     },
     "engines": {
         "vscode": "^1.21.0"
@@ -39,7 +39,7 @@
         ],
         "configuration": {
             "type": "object",
-            "title": "cpplint",
+            "title": "agora-cpplint",
             "properties": {
                 "cpplint.cpplintPath": {
                     "type": "string",
@@ -130,7 +130,7 @@
                 },
                 "cpplint.standardstd": {
                     "type": "boolean",
-                    "default": false,
+                    "default": true,
                     "description": "allow projects that use the standard C++ library to be checked"
                 }
             }
