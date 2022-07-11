@@ -5,7 +5,7 @@ import * as path from 'path';
 
 export function runOnFile() {
     if (vscode.window.activeTextEditor == undefined) {
-        return  ""
+        return ""
     }
     let activedoc = vscode.window.activeTextEditor.document;
     let filename = activedoc.fileName;
@@ -63,6 +63,10 @@ export function runCppLint(filename: string, workspaces: string[], enableworkspa
     }
 
     param.push("--verbose=" + config['verbose']);
+
+    if (config["standardstd"] != false) {
+        param.push("--standardstd");
+    }
 
     if (enableworkspace) {
         let out = [];

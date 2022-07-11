@@ -114,6 +114,9 @@ export class ConfigManager {
 
             var verbose = settings.get("verbose", 0)
             this.config['verbose'] = verbose;
+
+            var standardstd = settings.get("standardstd", false)
+            this.config['standardstd'] = standardstd;
         }
         return this.config;
     }
