@@ -8,7 +8,7 @@ This extension utilizes the cpplint checker to provide C and C++ code style chec
 
 * check coding style of cpp and c, when open and save source file
 
-![feature](https://github.com/secularbird/cpplint-extension/raw/master/feature.png)
+![feature](https://github.com/imagora/cpplint-extension/raw/master/feature.png)
 
 ## Requirements
 
@@ -21,7 +21,7 @@ https://github.com/imagora/agora-cpplint
 #### Mac & Linux
 
 ```bash
-sudo pip install cpplint
+sudo pip install agora-cpplint
 ```
 
 #### Windows
@@ -32,7 +32,7 @@ download link: https://repo.continuum.io/archive/Anaconda2-5.0.0-Windows-x86_64.
 * install cpplint
 open the anaconda Prompt, run the following command
 ```batch
-pip install cpplint
+pip install agora-cpplint
 ```
 
 #### Check the install result
@@ -45,6 +45,11 @@ ls -l /usr/local/bin/cpplint
 ```
 
 ##### Mac
+
+``` bash
+whereis cpplint
+cpplint: /Users/your-name/.pyenv/shims/cpplint
+```
 
 ```bash
 ls -l /opt/local/Library/Frameworks/Python.framework/Versions/2.7/bin/cpplint
@@ -85,4 +90,4 @@ dir c:\ProgramData\Anaconda2\Scripts\cpplint.exe
 
 ## Known Issues
 
-Any issues please contact: [cpplint](https://github.com/secularbird/cpplint-extension/issues)
+Any issues please contact: [cpplint](https://github.com/imagora/cpplint-extension/issues)

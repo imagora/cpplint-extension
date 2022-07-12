@@ -3,6 +3,22 @@ All notable changes to the "cpplint" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.1.6]
+### Change
+
+- update readme
+- add icon
+
+## [0.1.5]
+### Change
+
+- fix config file not found error
+
+## [0.1.4]
+### Change
+
+- support agora-cpplint standardstd flag
+
 ## [0.1.3]
 ### Change
 

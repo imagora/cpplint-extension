@@ -2,7 +2,7 @@
     "name": "agora-cpplint",
     "displayName": "agora-cpplint",
     "description": "code style check tool extension for agora-cpplint",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "publisher": "winking324",
     "repository": {
         "type": "Git",
@@ -14,6 +14,7 @@
     "categories": [
         "Linters"
     ],
+    "icon": "icon.png",
     "keywords": [
         "multi-root ready"
     ],
